@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Login page</title>
+        <link href="loginn.css" rel="stylesheet" type="text/css">
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <div class="login-box">
+            <h2>Enter Login Details</h2>
+            <form action="LoginServlett" method="post">
+                <div class="user-box">
+                <input type="text" name="lg" maxlength="12" >
+                <label>Username</label>
+                </div>
+                <div class="user-box">
+                    <input type="password" name="pwd" maxlength="12">
+                    <label>Password</label>
+                </div>
+                <input type="submit" value="Login">
+            </form>
+        </div>
+    </body>
+</html>
+
