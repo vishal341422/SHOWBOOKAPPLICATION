@@ -1,0 +1,3 @@
+SHOWBOOKAPPLICATION<BR>
+Author VISHAL KUMAR<br>
+This is a web-application which is developed for search book in the library. This project is developed by using JSE,JEE,SQL,HTML,CSS. When application run for the first time then a web-page is open where three things is display login, signup, change password.After successful login a new web-page is open and where one thing is asked by you enter book name .After enter book name it search the book in the library. If book present in the library then it show all the book regarding search book. If book not present in the library then it display a message sorry book not present in the library.
